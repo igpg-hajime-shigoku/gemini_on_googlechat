@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Python: Flask",
+        "type": "python",
+        "request": "launch",
+        "program": "$/Users/igp-2300039/Gemini on Googlechat /main_gpt.py",  // Pythonファイル名に変更する
+        "args": [
+          "--port",
+          "8080"
+        ],
+        "jinja": true,
+        "env": {
+          "OPENAI_API_KEY": ""  // OpenAIのAPIキー
+        }
+      }
+    ]
+  }
